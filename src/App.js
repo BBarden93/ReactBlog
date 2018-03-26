@@ -1,11 +1,15 @@
 import React from 'react'
+import NavBar from './NavBar.js'
+import PostsContainer from './PostsContainer.js'
+// import image from './'
 import './App.css'
-import './NavBar.js'
 
 const App = () => {
     return (
         <div>
-            <h1>My Blog</h1>
+            <img src="image" alt="image"/>
+            <NavBar/>
+            <PostsContainer/>
         </div>
     )
 }

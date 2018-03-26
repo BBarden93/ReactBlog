@@ -1,3 +1,7 @@
-body {
-    background: dodgerblue;
+.NavBar, .NavBar li{
+    list-style: none;
+}
+li {
+    display: inline;
+    margin-right:10px;
 }
