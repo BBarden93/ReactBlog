@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './App.js'
 
 // Element we want to append app to
 const rootDiv = document.querySelector('#root')
 
 // takes some HTML (JSX), and puts it somewhere
-ReactDOM.render(<h1>Boom! Blog!</h1>, rootDiv)
+ReactDOM.render(<App/>, rootDiv)
